@@ -1,0 +1,8 @@
+
+1.
+git log 中文乱码的问题:
+git config --global i18n.commitencoding utf-8
+git config --blobal i18n.logoutputencoding gbk
+在 ~/.bashrc中增加 export LESSCHARSE=utf-8
+
+
